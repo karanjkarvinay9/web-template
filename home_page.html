@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SSC</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script type="text/javascript", src="script.js"></script>
+</head>
+
+<body onload="createCarousel()">
+	<h1 style="text-align: center;">Compatative Exam Resources</h1>
+	<br>
+	<div class="class-dropdown">
+	<p style="display: inline-block;">Exam</p>
+	<button id='exam' type="button" class="btn btn-default dropdown-toggle margn" data-toggle="dropdown">
+	Exam
+	</button>
+	<div class="dropdown-menu">
+		<a class="dropdown-item active" href="#" id="ssc" onclick="changeclass(this)">SSC</a>
+		<a class="dropdown-item " href="#" id="banking" onclick="changeclass(this)">BANKING</a>
+	</div>
+	</div>
+	<br>
+	  <div class="container my-4">
+	  	<h3 class ='subject-name'>SUBJECT 1</h3>
+    <!--Carousel Wrapper-->
+    <div id="subject1" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+      <!--Controls-->
+      <div class="controls">
+        <a class="carousel-control-prev" href="#subject1" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+        <a class="carousel-control-next" href="#subject1" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+      </div>
+
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#subject1" data-slide-to="0" class="active"></li>
+        <li data-target="#subject1" data-slide-to="1"></li>
+        <li data-target="#subject1" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+              	<div class="filler" id='filler-1'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+              	<div class="filler" id='filler-2'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+              	<div class="filler" id='filler-3'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!--Second slide-->
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+              	<div class="filler" id='filler-4'></div>
+              	<div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <div class="filler" id='filler-5'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <div class="filler" id='filler-6'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!--Third slide-->
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <div class="filler" id='filler-7'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <div class="filler" id='filler-8'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>	
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <div class="filler" id='filler-9'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  	  <div class="container my-4">
+  	  	<h3 class ='subject-name'>SUBJECT 2</h3>
+    <!--Carousel Wrapper-->
+    <div id="aubject2" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+      <!--Controls-->
+      <div class="controls">
+        <a class="carousel-control-prev" href="#aubject2" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+        <a class="carousel-control-next" href="#aubject2" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+      </div>
+
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#aubject2" data-slide-to="0" class="active"></li>
+        <li data-target="#aubject2" data-slide-to="1"></li>
+        <li data-target="#aubject2" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+              	<div class="filler" id='filler-10'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+              	<div class="filler" id='filler-11'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+              	<div class="filler" id='filler-12'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!--Second slide-->
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+              	<div class="filler" id='filler-13'></div>
+              	<div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <div class="filler" id='filler-14'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <div class="filler" id='filler-15'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!--Third slide-->
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <div class="filler" id='filler-16'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <div class="filler" id='filler-17'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <div class="filler" id='filler-18'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>	
+  </div>
+
+
+	  <div class="container my-4">
+	  	<h3 class ='subject-name'>SUBJECT 3</h3>
+    <!--Carousel Wrapper-->
+    <div id="subject3" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+      <!--Controls-->
+      <div class="controls">
+        <a class="carousel-control-prev" href="#subject3" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+        <a class="carousel-control-next" href="#subject3" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+      </div>
+
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#subject3" data-slide-to="0" class="active"></li>
+        <li data-target="#subject3" data-slide-to="1"></li>
+        <li data-target="#subject3" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+              	<div class="filler" id='filler-19'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+              	<div class="filler" id='filler-20'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+              	<div class="filler" id='filler-21'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!--Second slide-->
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+              	<div class="filler" id='filler-22'></div>
+              	<div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <div class="filler" id='filler-23'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <div class="filler" id='filler-24'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!--Third slide-->
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <div class="filler" id='filler-25'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <div class="filler" id='filler-26'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <div class="filler" id='filler-27'></div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a large card with souporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+
+                  <p class = 'text-muted'> last updated 3 mins ago </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+ 
+</body>
+</html>
