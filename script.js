@@ -1,4 +1,4 @@
-const colors = ['#80DEEA', '#FFE338', '#EA3333', '#00E600', '#B4BAB9', '#FF9D5C', '#B44DE0'];
+const colors = ['#80DEEA','#FEA8DB','#99FFCC', 'FFFDD0', '#FFE338', '#EA3333', '#00E600', '#B4BAB9', '#FF9D5C', '#B44DE0', '#7986CB'];
 
 const ssc_subject = ['General Awareness', 'English Language and Comprehension', 'Quantitative Aptitude'];
 
