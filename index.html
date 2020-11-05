@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ApnaStudy</title>
+	<title>Try</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -22,15 +22,36 @@ function myFunction() {
 	</script>
 </head>
 <body>
+	
+
 	<nav id="navbar" class="navbar navbar-expand-sm fixed-top navbar-dark">
     <div class="container">
 
       <!-- Brand -->
       <a class="navbar-brand" href="https://apnastudy.com/" target="_self">
-       <img src="navbar-brand.png" alt="brand-logo">
+       <img src="images/navbar-brand.png" alt="brand-logo">
       </a>
 
       <!-- Collapse -->
+      <a class="nav-link" data-toggle="collapse" href="#collapseList" role="button" aria-expanded="false" 
+        aria-controls="collapseList">Menu
+          <span class="fa fa-bars" style="color: white;"></span>
+        </a>
+
+        <div class="collapse" id="collapseList">
+         <ul class="nav-item">
+            <li class="navbar-nav">
+            <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="navbar-nav">
+            <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="navbar-nav">
+            <a class="nav-link" href="#">Link 3</a>
+            </li>    
+          </ul>
+        </div>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -69,11 +90,14 @@ function myFunction() {
 	  <!-- 21:9 aspect ratio -->
 	</svg>
 
-<div class="container">
-  <!-- Button to Open the Modal -->
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-    Submit your enquiry
-  </button>
+	<div class="row">
+		<div class="col text-center">
+			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+			Submit your enquiry
+		</button>    
+		</div>
+	</div>
+<br>	
 
   <!-- The Modal -->
   <div class="modal fade" id="myModal">
@@ -131,7 +155,7 @@ function myFunction() {
   
 </div>
 
-	<div class="embed-responsive embed-responsive-4by3 try mx-auto">
+	<div class="embed-responsive embed-responsive-16by9 try mx-auto">
 	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zCD9aPkQOIs"></iframe>
 	</div>
 	<div class="clearfix"></div>
@@ -170,12 +194,14 @@ function myFunction() {
         </div>        
     </div>
 </div>
- <div class="row">
-    <div class="col text-center">
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-    Submit your enquiry
-  </button>    </div>
-  </div>
+
+	<div class="row">
+		<div class="col text-center">
+			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+			Submit your enquiry
+		</button>    
+		</div>
+	</div>
 
 <!-- Footer -->
 <br>
