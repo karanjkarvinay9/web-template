@@ -1,0 +1,18 @@
+.try{
+	align-self: center;
+	width: 25%;
+}
+
+span{
+	color: violet;
+}
+.left{
+	float: left;
+}
+.right{
+		float: right;
+}
+
+.text-color{
+	color: white;
+}
