@@ -16,3 +16,15 @@ span{
 .text-color{
 	color: white;
 }
+.panel {
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 50px 30px;
+    padding: 30px 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+
+}
+.panel ul {
+    margin: 0;
+    padding: 0;
+}
