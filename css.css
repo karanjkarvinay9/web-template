@@ -13,7 +13,7 @@ span{
 		float: right;
 }
 
-.text-color{
+.text-color{	
 	color: white;
 }
 .panel {
@@ -27,4 +27,9 @@ span{
 .panel ul {
     margin: 0;
     padding: 0;
+}
+
+iframe{
+	width: 500;
+	height: 300;
 }
